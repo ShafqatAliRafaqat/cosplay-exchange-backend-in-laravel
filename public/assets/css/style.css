@@ -1,0 +1,312 @@
+body{
+  background-image: url("../../images/SmokeBackground.jpg");
+}
+.sidenav{
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 20px;
+  position: fixed;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-bottom: 15px;
+  /*margin-top: 25px;*/
+  text-align: center;
+  color: #fff;
+  display: block;
+  font-family: 'Cormorant Garamond', serif;!important;
+}
+.sidenav img{
+  width: 100%;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 360px){
+  .sidenav{
+    display: none;
+  }
+  .my-btnnav{
+    width: 50%;
+    background-color: #800055;
+    opacity: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
+@media screen and (min-width: 361px){
+  button{
+    display: none;
+  }
+}
+
+.form-inline{
+  position: relative;
+  top: 100%;
+  left: 20%;
+}
+.form-inline input{
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 10px;
+  height: 40px;
+  width: 550px;
+  padding-left: 20px;
+  font-family: 'Cormorant Garamond', serif;;
+}
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+.icons{
+  position: relative;
+  top: 30%;
+  right: -50%;
+  font-size: 45px;
+  color: #C200B8;
+}
+.icons i{
+  padding-right: 12px;
+  color: #CE00BA;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+.name{
+  text-align: center; 
+  font-size: 85px; 
+  color: #ffe6f7; 
+  margin-left: 90px; 
+  margin-top: 20px;
+  font-family: 'Cormorant Garamond', serif;
+}
+.div1{
+  position: absolute;
+  top: 25%;
+  left: 32%; 
+}
+.div2{
+  position: absolute;
+  top: 20%;
+  left: 44%; 
+  z-index: 1;
+}
+.div3{
+  position: absolute;
+  top: 25%;
+  left: 63%; 
+}
+.div1 img{
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    margin-top: 70px;
+}
+.div1 i{
+    font-size: 146px;
+    position: absolute;
+    top: 120px;
+    z-index: -1;
+    left: -87px;
+    color: #000;
+}
+.div3 i{
+    font-size: 146px;
+    position: absolute;
+    top: 120px;
+    left: 210px;
+    color: #000;
+    z-index: -1;
+}
+.div2 img{
+    border-radius: 100%;
+    height: 360px;
+    width: 360px;
+}
+.div3 img{
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    margin-top: 70px;
+}
+.my-star{
+  position: absolute;
+  top: 362px;
+  right: 527px;
+}
+.my-btn{
+  position: absolute;
+  top: 470px;
+  right: 600px;
+}
+.my-btn button{
+  width: 200px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #000;
+  border: none;
+  font-family: 'Cormorant Garamond', serif!important;
+  margin-bottom: 20px;
+}
+.my-btn2{
+  position: absolute;
+  /*bottom: -693px;*/
+  right: 600px;
+}
+.my-btn2 button{
+  width: 200px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #000;
+  border: none;
+  font-family: 'Cormorant Garamond', serif!important;
+}
+.my-star i{
+  color: #ffc30b;
+  font-size: 60px;
+}
+
+@media (max-width: 360px){
+      body{
+        background-image: url("../../images/backgroundimage.jpg");
+        background-image: cover;
+        overflow-x: hidden!important;
+      }
+     .name{
+        text-align: center; 
+        font-size: 28px; 
+        color: #fff; 
+        margin-top: 10px;
+        margin-left: -4px; 
+        font-family: 'Cormorant Garamond', serif;;
+      }
+      .div1{
+        position: absolute;
+        top: 45%;
+        left: 10%; 
+      }
+      .div2{
+        position: absolute;
+        top: 38%;
+        left: 26%;
+        z-index: 1;
+      }
+      .div3{
+        position: absolute;
+        top: 40%;
+        left: 60%;; 
+      }
+      .div1 img{
+          border-radius: 100%;
+          height: 100px;
+          width: 100px;
+          margin-top: 30px;
+      }
+      .div1 i{
+        font-size: 32px;
+        position: absolute;
+        top: 65px;
+        left: -20px;
+        color: #3E1779;
+      }
+      .div3 i{
+        font-size: 32px;
+        position: absolute;
+        top: 65px;
+        left: 92px;
+        color: #3E1779;
+      }
+      .div2 img{
+          border-radius: 100%;
+          height: 180px;
+          width: 160px;
+          position: absolute;
+          /*top: 42px;*/
+      }
+      .div3 img{
+        border-radius: 100%;
+        height: 100px;
+        width: 100px;
+        margin-top: 30px;
+      }
+      .my-star{
+        position: absolute;
+        top: 188px;
+        right: 106px;
+      }
+      .my-btn{
+        position: absolute;
+        top: 260px;
+        right: 88px;
+      }
+      .my-btn button{
+        width: 180px;
+        height: 75px;
+        /*font-weight: bold;*/
+        font-size: 25px;
+        font-family: 'Cormorant Garamond', serif!important;
+      }
+      .my-btn2{
+        position: absolute;
+        top: 350px;
+        right: 88px;
+      }
+      .my-btn2 button{
+        width: 180px;
+        height: 75px;
+        /*font-weight: bold;*/
+        font-size: 25px;
+        font-family: 'Cormorant Garamond', serif!important;
+      }
+      .my-star i{
+        color: #ffc30b;
+        font-size: 25px;
+      }
+      .form-inline{
+        position: relative;
+        top: 100%;
+        left: -15%;
+      }
+      .form-inline input{
+        border-radius: 0px;
+        border: none;
+        height: 25px;
+        width: 180px;
+      }
+      .sidenav img{
+        /*display: none!important;       */
+      }
+      .icons{
+        display: none!important;
+      }
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        /*margin-bottom: 15px;*/
+        margin-top: 0px;
+        text-align: center;
+        color: #fff;
+        display: block;
+        font-family: 'Cormorant Garamond', serif!important;
+      }
+  }

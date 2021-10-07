@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{margin:0; padding:0;}
+body{font-family: 'Open Sans', sans-serif; overflow-x: hidden; background: url(../images/app-bg.jpg) no-repeat top; background-position:fixed;  background-size: cover;}
+h1, h2, h3, h4, h5, h6{font-family: 'Conv_CormorantSC-Light';}
+.favorite_body{background: none;}
+a{-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;}
+ul, ol{list-style:none;}
+img{max-width:100%;}
+p{font-size:14px; line-height:24px; color:#333;}
+.style_none{list-style:none; margin-bottom:0;}
+.style_none{list-style:none;}
+.readmore{margin-bottom: 30px;}
+.readmore a{text-decoration: none; font-size: 14px; color: #fff; display: inline-block; font-weight: bold; text-transform: uppercase; background: #ffb900; padding: 14px 36px;}
+.readmore a:hover{background: #000;}
+input:focus, textarea:focus{outline: none !important; box-shadow: none !important;}
+
+
+@font-face {
+    font-family: 'Conv_CormorantSC-Light';
+    src: url('../webfonts/CormorantSC-Light.eot');
+    src: local('☺'), url('../webfonts/CormorantSC-Light.woff') format('woff'), url('../webfonts/CormorantSC-Light.ttf') format('truetype'), url('../webfonts/CormorantSC-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Conv_CormorantGaramond-Light';
+    src: url('../webfonts/CormorantGaramond-Light.eot');
+    src: local('☺'), url('../webfonts/CormorantGaramond-Light.woff') format('woff'), url('../webfonts/CormorantGaramond-Light.ttf') format('truetype'), url('../webfonts/CormorantGaramond-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*********************************************
+    Contact Css
+**********************************************/
+
+.appbox {max-width: 700px; margin: 0 auto; padding-top: 40px;}
+.formbox{background: #000; padding: 40px;}
+.app-wrap .input-group{margin-top: 15px;}
+.formbox h3{text-align: center; color: #fff; font-size: 32px; text-transform: uppercase; font-weight: 300;}
+.formbox .form-control, .formbox  textarea.form-control{border-radius:0; height:48px; font-family: 'Conv_CormorantSC-Light'; font-size:20px; font-weight: 300; background: no-repeat; color: #fff; border: none;  border-bottom: 1px solid #28262b; padding-left: 0;}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #c4c5c7 !important;
+  opacity: 1; /* Firefox */
+  
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #c4c5c7 !important;
+  
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #c4c5c7 !important; 
+}
+
+.formbox  textarea.form-control{height: 80px;}
+.btnWrp{text-align: center; display: block; margin-top: 40px !important;}
+.btnWrp button{border: none; cursor: pointer;}
+
+
+
+
+
+.formcol textarea.form-control{height: 200px !important;}
+
+.favorite-wrap{padding: 40px 0;}
+.favorite-wrap h3{margin-top: 10px;}
+.favorite-wrap h3 a{font-size: 18px; color: #000; text-transform: inherit; font-family: 'Conv_CormorantGaramond-Light';}
+.iconswrp span{margin-right: 8px;}
+.coin{color: #cca43d;}
+.favorite-wrap p{font-size: 16px; font-family: 'Conv_CormorantGaramond-Light'; margin-bottom: 5px; color: #a0a0a0;}
+.pricingbox{display: flex;}
+.priceInfo{color: #000; font-size: 16px; font-weight: 600;}
+.priceInfo span{font-weight: normal; font-style: oblique; text-decoration: line-through;
+    color: #a2a2a2;}
+
+.offprice{font-size: 16px; color: #d05e7d; margin-left: 6px; font-weight: 600;}
+.heart_icon{float: right; margin-left: 30px; color: #626de9;}
+.favorite-wrap h1{font-size: 30px; text-align: center; margin-bottom: 30px; font-weight: bold;}
+.favorite-wrap h1 i{font-size: 24px; color: #bdbdbd;}
+.favWro{margin-bottom: 30px;}
+
+
+
+
+
+@media screen and (max-width: 990px) {
+.favorite-wrap .col{flex: 0 0 33%;
+    max-width: 33%;}
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+.favorite-wrap .col{flex: 0 0 50%;
+    max-width: 50%;}
+
+
+}
+
+@media screen and (max-width: 480px) {
+.favorite-wrap .col{flex: 0 0 100%;
+    max-width: 100%;}
+.favWro{max-width: 217px; margin: 0 auto 30px auto;}
+    
+}
+
+
+
+
+
